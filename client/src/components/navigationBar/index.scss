@@ -1,0 +1,12 @@
+.navigation-bar {
+  background-color: yellow;
+  position: fixed;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  &-left {
+    position: absolute;
+    left: 10rpx;
+  }
+}
